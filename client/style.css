@@ -1,0 +1,9 @@
+body {
+  background-image: url(http://www.creattor.com/files/37/1681/plaid-fabrics-textures-screenshots-4.jpg);
+}
+
+.holder {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
