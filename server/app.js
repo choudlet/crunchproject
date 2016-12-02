@@ -1,6 +1,8 @@
 var crunchy = require('./crunchy.js');
-var express = require('express')
+var express = require('express');
 var app = express();
+var cors = require('cors');
+app.use(cors());
 
 app.listen(3000, function() {
   console.log("listening on port 3000!")
