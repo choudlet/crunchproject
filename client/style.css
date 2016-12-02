@@ -1,9 +1,20 @@
 body {
-  background-image: url(http://www.creattor.com/files/37/1681/plaid-fabrics-textures-screenshots-4.jpg);
+  background-image: url(http://atextures.com/wp-content/uploads/2014/08/Tartan-Pattern-Background-93-625x416.jpg);
+  color: #f57c00;
 }
 
 .holder {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  background-color: rgba(116, 79, 41, 0.8);
+  padding: 2em;
+  position:relative;
+  top: 4em;
+  border-radius: 20px;
+}
+
+.target {
+  position:relative;
+  left: 2em;
 }

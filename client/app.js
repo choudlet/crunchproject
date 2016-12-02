@@ -9,7 +9,7 @@ $(document).ready(function(){
   $('button').on('click', function(event){
     event.preventDefault();
     var randomWord = crunchyarray[Math.floor(Math.random() * crunchyarray.length)];
-    var appendthingy = `<h1>${randomWord}</h1>`;
+    var appendthingy = `<h1 class='target'>${randomWord}</h1>`;
      $('#appendhere').html(appendthingy);
   });
 });
